@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dex.Cli", "Dex.Cli\Dex.Cli.csproj", "{C99751FF-314C-4671-9C05-5514F34AADA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dex.Core", "Dex.Core\Dex.Core.csproj", "{1B5DB34F-1C6B-4E03-94DC-4828FF099F28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dex.Indexing", "Dex.Indexing\Dex.Indexing.csproj", "{C262E692-218A-4136-A01B-95D41F4CE4DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dex.Polling", "Dex.Polling\Dex.Polling.csproj", "{49C8334A-ACE5-4578-8580-4D89FD5E0D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dex.Database", "Dex.Database\Dex.Database.csproj", "{4CC34E42-B234-4C60-8182-4FE78B47E013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dex.Models", "Dex.Models\Dex.Models.csproj", "{DB572458-2838-4DE7-82C1-05ECA9CD2CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C99751FF-314C-4671-9C05-5514F34AADA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99751FF-314C-4671-9C05-5514F34AADA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99751FF-314C-4671-9C05-5514F34AADA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99751FF-314C-4671-9C05-5514F34AADA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5DB34F-1C6B-4E03-94DC-4828FF099F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5DB34F-1C6B-4E03-94DC-4828FF099F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5DB34F-1C6B-4E03-94DC-4828FF099F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5DB34F-1C6B-4E03-94DC-4828FF099F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C262E692-218A-4136-A01B-95D41F4CE4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C262E692-218A-4136-A01B-95D41F4CE4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C262E692-218A-4136-A01B-95D41F4CE4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C262E692-218A-4136-A01B-95D41F4CE4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C8334A-ACE5-4578-8580-4D89FD5E0D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C8334A-ACE5-4578-8580-4D89FD5E0D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C8334A-ACE5-4578-8580-4D89FD5E0D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C8334A-ACE5-4578-8580-4D89FD5E0D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC34E42-B234-4C60-8182-4FE78B47E013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC34E42-B234-4C60-8182-4FE78B47E013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC34E42-B234-4C60-8182-4FE78B47E013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC34E42-B234-4C60-8182-4FE78B47E013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB572458-2838-4DE7-82C1-05ECA9CD2CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB572458-2838-4DE7-82C1-05ECA9CD2CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB572458-2838-4DE7-82C1-05ECA9CD2CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB572458-2838-4DE7-82C1-05ECA9CD2CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBEA3728-AA4B-4A2A-8D92-93EE6715E67A}
+	EndGlobalSection
+EndGlobal

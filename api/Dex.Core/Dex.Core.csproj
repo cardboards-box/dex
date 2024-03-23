@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+		<ItemGroup>
+		<PackageReference Include="CardboardBox.Database.Postgres.Standard" Version="1.0.1" />
+		<PackageReference Include="CardboardBox.Http.Files" Version="2.0.1" />
+		<PackageReference Include="CardboardBox.Http.Html" Version="2.0.1" />
+		<PackageReference Include="CardboardBox.Redis" Version="2.0.4" />
+		<PackageReference Include="CardboardBox.Setup" Version="2.0.0" />
+		<PackageReference Include="MangaDexSharp" Version="1.1.1" />
+		<PackageReference Include="System.Security.Cryptography.Pkcs" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="./../global.cs" />
+	</ItemGroup>
+	
+</Project>
